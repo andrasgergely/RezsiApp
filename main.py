@@ -1,7 +1,7 @@
 import customtkinter
 from datetime import datetime
 from AA_module import AA_Calculator
-import statistics  # bemutatandó + tanult modul
+import statistics  
 
 customtkinter.set_appearance_mode("system")
 customtkinter.set_default_color_theme("blue")
@@ -130,7 +130,7 @@ button_reset = customtkinter.CTkButton(
     height=40,
     width=200,
     command=uj_szamitas,
-    fg_color="#bcd9ff",       # halványkék
+    fg_color="#bcd9ff",       
     hover_color="#a9c9f5",
     text_color="black"
 )
