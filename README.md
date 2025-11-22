@@ -15,7 +15,12 @@ Grafikus program havi költségek összegzésére és alap statisztikai értéke
 - AA_Calculator
 
 ## Futtatás
-pip install customtkinter  
+Ha még nincs telepítve:
+
+pip install customtkinter
+
+Indítás:
+
 python main.py
 
 ## Fájlok
